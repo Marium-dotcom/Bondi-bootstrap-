@@ -172,3 +172,32 @@
 .ourteam .row p {
     background-color: white;
 }
+/* start subscribe */
+.subscribe {
+    background-color: var(--yellow-color);
+  }
+  .subscribe input[type="email"] {
+    border: none;
+    border-bottom: solid 1px white;
+    caret-color: var(--green-color);
+  }
+  .subscribe input[type="email"]:focus {
+    outline: none;
+  }
+  .subscribe input[type="email"]::placeholder {
+    color: white;
+    text-transform: capitalize;
+    transition: 0.3s;
+  }
+  .subscribe input[type="email"]:focus::placeholder {
+    opacity: 0;
+  }
+  .subscribe input[type="submit"] {
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+    transition: 0.3s;
+  }
+  .subscribe input[type="submit"]:hover {
+    color: #33d1cc;
+  }
+  /* end subscribe */
