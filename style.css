@@ -201,3 +201,13 @@
     color: #33d1cc;
   }
   /* end subscribe */
+
+.intro-section button
+{
+    font-weight: bold;
+    border: 2px solid rgb(165, 124, 255) ;
+}
+.intro-section
+{
+    background-color: rgb(247, 247, 247);
+}
